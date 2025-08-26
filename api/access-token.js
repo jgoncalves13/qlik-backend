@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const resp = await fetch("https://keyruspt.eu.com/oauth/token", {
+    const resp = await fetch("https://keyruspt.eu.qlikcloud.com/oauth/token", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams({
